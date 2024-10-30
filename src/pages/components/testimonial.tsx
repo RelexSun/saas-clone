@@ -84,7 +84,6 @@ export default function Testimonial() {
           <Image src={tbg} alt="tbg" />
         </div>
       </div>
-      ;
     </>
   );
 }
