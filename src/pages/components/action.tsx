@@ -20,7 +20,7 @@ export default function Action() {
             sales funnel, pipeline management, sales reports, 360-degree
             customer view, support for repeat sales
           </span>
-          <div className="flex items-center gap-4  z-10">
+          <div className="flex flex-col md:flex-row items-center gap-4  z-10">
             <Button variant="primary">Get Started Now</Button>
             <Button variant="secondary">Contact Us</Button>
           </div>

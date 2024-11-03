@@ -10,14 +10,14 @@ export default function HeroSection() {
     <>
       <div className="hero-section w-[100vw]">
         <div className="flex flex-col md:flex-row lg:justify-center gap-10 max-w-[1440px] mx-auto my-0 items-center z-50 relative px-10 py-28 md:py-64">
-          <div className="flex flex-col items-start w-[400px] lg:w-[520px] gap-5 ">
+          <div className="flex flex-col items-start sm:w-[400px] lg:w-[520px] gap-5 ">
             <div>
               <Lable variant={LableVariant.Primary}>
                 Better Way To Manage Business
               </Lable>
             </div>
             <div className="flex flex-col gap-5">
-              <h1 className="text-white font-bold text-4xl lg:text-5xl lg:leading-snug">
+              <h1 className="text-white font-bold text-2xl sm:text-4xl lg:text-5xl lg:leading-snug">
                 Integrated CRM, Project Management
               </h1>
               <span className="text-white">

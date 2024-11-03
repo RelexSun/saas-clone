@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
           <div>{/*icons */}</div>
         </div>
-        <div className="flex items-start gap-8 md:gap-10 lg:gap-24">
+        <div className="flex items-start gap-5 sm:gap-8 md:gap-10 lg:gap-24">
           <div>
             <div className="h-full pb-9">
               <span className="text-[#003378] font-bold text-lg ">Support</span>
