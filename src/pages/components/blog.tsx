@@ -36,7 +36,7 @@ const BlogImage = [b1, b2, b3];
 export default function Blog() {
   const [active, setActive] = useState<number>(0);
   return (
-    <div className="max-w-[1200px] mx-auto my-0 md:space-y-10 md:p-10">
+    <div className="max-w-[1200px] mx-auto my-0 md:space-y-10 md:p-10 p-7 md:pt-24">
       <div className="space-y-2 mb-3">
         <Lable variant={LableVariant.Secondary}>Blog</Lable>
         <h1 className="text-[#003378] text-4xl font-semibold">News Feeds</h1>

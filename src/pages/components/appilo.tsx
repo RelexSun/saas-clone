@@ -41,7 +41,7 @@ const process: ProcessProps[] = [
 
 export default function Appilo() {
   return (
-    <div className="bg-white h-[1050px] sm:h-[900px] md:h-[700px]  lg:h-[650px] pt-16 p-5  lg:px-10 lg:pt-20 ">
+    <div className="bg-white py-16 p-5  lg:px-10 lg:py-32 ">
       <div className="max-w-[1200px] mx-auto my-0 space-y-10 text-center">
         <div className="space-y-4">
           <div>

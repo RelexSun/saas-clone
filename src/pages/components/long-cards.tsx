@@ -1,4 +1,5 @@
 import { IconArrowNarrowRight } from "@tabler/icons-react";
+import Link from "next/link";
 
 interface LongCardProps {
   title: string;
@@ -7,7 +8,10 @@ interface LongCardProps {
 
 export default function LongCard({ items }: { items: LongCardProps }) {
   return (
-    <div className="flex items-center justify-between pt-5 pb-4 px-10 bg-white">
+    <Link
+      href="#"
+      className="flex items-center justify-between pt-5 pb-4 px-10 long-card"
+    >
       <div className="flex items-center gap-6">
         <div className="text-[#3186f8]">{items.icon}</div>
         <h1 className="text-[#003378] font-bold">{items.title}</h1>
@@ -15,6 +19,6 @@ export default function LongCard({ items }: { items: LongCardProps }) {
       <div className=" text-[#cfd8e4]">
         <IconArrowNarrowRight />
       </div>
-    </div>
+    </Link>
   );
 }

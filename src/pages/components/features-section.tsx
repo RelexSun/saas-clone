@@ -6,7 +6,7 @@ import f3 from "../../../public/fp3.jpg";
 
 export default function FeaturesSection() {
   return (
-    <div className="w-full bg-[#f8f8f8] pb-14">
+    <div className="w-full bg-[#f8f8f8] pb-14 pt-24">
       <div className="max-w-[1440px] mx-auto my-0 space-y-24">
         <div className=" md:w-4/5 xl:w-3/4 mx-auto my-0 bg-white  lg:flex items-center xl:px-20 xl:pt-20 xl:pb-16 relative p-5 md:p-10">
           <div className="">

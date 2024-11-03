@@ -41,7 +41,7 @@ export default function Testimonial() {
   return (
     <>
       <div className="relative flex flex-col space-y-16 md:space-y-0 md:flex-row items-center justify-center gap-5 bg-[#f7f7f7] p-4 lg:p-20 h-[1050px] sm:h-[900px] md:h-[700px] lg:h-[650px]">
-        <div className="z-10 space-y-7">
+        <div className="z-10 md:space-y-7">
           <TestimonialCard
             content={TestimonialCardContent[0].content}
             icon={TestimonialCardContent[0].icon}

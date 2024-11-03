@@ -48,7 +48,7 @@ const CardItems: CardProps[] = [
 
 export default function CoreFeature() {
   return (
-    <div className="text-center max-w-[1440px] mx-auto my-0 flex flex-col gap-12 p-10 sm:p-20">
+    <div className="text-center max-w-[1440px] mx-auto my-0 flex flex-col gap-12 py-10 xl:p-20 sm:mt-5">
       <div className="flex flex-col gap-3 max-w-[515px] mx-auto my-0">
         <div>
           <Lable variant={LableVariant.Secondary}>Core Feature</Lable>

@@ -36,7 +36,7 @@ const LongCardItems = [
 
 export default function Integrations() {
   return (
-    <div className="bg-[#f8f8f8] w-full h-auto py-32">
+    <div className="bg-[#f8f8f8] w-full h-auto pb-32 pt-36">
       <div className="max-w-[1200px] mx-auto my-0 flex flex-col md:flex-row px-6 xl:px-20 gap-16">
         <div className="md:w-1/2 relative">
           <div className=" space-y-8">

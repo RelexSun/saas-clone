@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Card({ items }: { items: CardProps }) {
   return (
-    <div className="py-12 px-11 flex flex-col items-center border-[#eff3f7] border hover:shadow-lg hover:border-none">
+    <div className="py-12 px-11 flex flex-col items-center border-[#eff3f7] border hover:shadow-lg hover:border-white transition ease-in-out duration-300">
       <div className="mb-7">
         <div className="flex items-center justify-between gap-4">
           <div>
@@ -21,7 +21,7 @@ export default function Card({ items }: { items: CardProps }) {
         {items.details.map((item, index) => (
           <div
             key={index}
-            className="flex items-center gap-4 text-base  mb-5 text-[#3186f8]"
+            className="flex items-center gap-4 text-base mb-5 text-[#3186f8]"
           >
             <IconCheck stroke={2} className="" />
             <p className=" text-[#6480a7]">{item}</p>
