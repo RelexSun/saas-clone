@@ -77,7 +77,7 @@ export default function Integrations() {
           </p>
           <div className=" space-y-4 mt-5">
             {LongCardItems.map((items, index) => (
-              <LongCard items={items} key={index} />
+              <LongCard title={items.title} icon={items.icon} key={index} />
             ))}
           </div>
         </div>

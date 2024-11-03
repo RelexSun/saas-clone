@@ -59,7 +59,13 @@ export default function CoreFeature() {
       </div>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-5 sm:flex-wrap">
         {CardItems.map((item) => (
-          <Card items={item} key={item.title} />
+          <Card
+            icon={item.icon}
+            desc={item.desc}
+            details={item.details}
+            title={item.title}
+            key={item.title}
+          />
         ))}
       </div>
     </div>
