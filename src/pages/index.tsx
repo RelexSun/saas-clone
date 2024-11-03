@@ -5,7 +5,7 @@ import Blog from "./components/blog";
 import CoreFeature from "./components/core-features";
 import FeaturesSection from "./components/features-section";
 import Footer from "./components/footer";
-import { HeroSection } from "./components/hero";
+import HeroSection from "./components/hero";
 import Integrations from "./components/integrations";
 import NavBar from "./components/navbar";
 import Testimonial from "./components/testimonial";

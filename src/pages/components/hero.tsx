@@ -5,7 +5,7 @@ import hero from "../../../public/bs1.png";
 import Image from "next/image";
 import Button from "./button";
 
-export const HeroSection = () => {
+export default function HeroSection() {
   return (
     <>
       <div className="hero-section w-[100vw]">
@@ -47,4 +47,4 @@ export const HeroSection = () => {
       </div>
     </>
   );
-};
+}
